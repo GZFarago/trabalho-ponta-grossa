@@ -1,0 +1,96 @@
+body{
+    color:rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, rgb(122, 122, 235), rgb(73, 73, 73));
+}
+.rodape{
+    text-align: center;
+    font-family: sans-serif;
+}
+h1,h2,h3{
+    font-family: fantasy;
+}
+p{
+    font-family: monospace;
+    font-size: large;
+}
+table{
+    position: absolute;
+    right: 660px;
+    text-align: center;
+    border-collapse: collapse;
+    background: #FFFFF0;
+}
+ 
+table td {
+    border: 1px solid black;
+}
+ 
+table th {
+    border: 1px solid black;
+    background: #F0FFF0;
+}
+.direcionamento{
+    background-image: url(../img/vista-aerea-centro-ponta-grossa.jpg);
+    background-size: 500px, 150px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 3px solid rgb(34, 196, 69) ;
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{
+    color: rgb(34, 196, 69);
+    text-decoration:dotted;
+    padding: 7px;
+}
+.navegacao a:hover{
+    color:rgb(56, 46, 46);
+    background-color: rgb(73, 73, 230);
+}
+.video{
+    border: 2px solid rgb(34, 196, 69);
+    width: 560px;
+    position: relative;
+    top: 10px;
+    left: 650px;
+
+}
+.conteudo{
+    text-align: center;
+}
+h1#titulo{
+    font-size: 100px;
+}
+img#card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 5px;
+}
+img#card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+p#container {
+    background-color: whitesmoke;
+	max-width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+.retorno{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    overflow: hidden;
+}
+.retorno a{
+    color: rgb(34, 196, 69);
+    text-decoration:dotted;
+    padding: 7px;
+}
+.retorno a:hover{
+    color:rgb(56, 46, 46);
+    background-color: rgb(73, 73, 230);
+}
